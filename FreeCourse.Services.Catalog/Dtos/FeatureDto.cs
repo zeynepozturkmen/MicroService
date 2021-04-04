@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FreeCourse.Services.Catalog.Models
+namespace FreeCourse.Services.Catalog.Dtos
 {
-    //Özellik - Bir kursun birden fazla özelligi olabilir. One-to-many rel. ?
-    public class Feature
+    internal class FeatureDto
     {
         public int Duration { get; set; }
     }
